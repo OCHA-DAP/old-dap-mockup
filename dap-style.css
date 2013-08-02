@@ -36,6 +36,7 @@ section {
 
 details {
     margin: 1em 0;
+    padding: 0 1em;
 }
 
 details > summary {
@@ -45,6 +46,7 @@ details > summary {
 table {
     border-collapse: collapse;
     margin: 1ex 0;
+    font-size: 80%
 }
 
 th, td {
@@ -53,7 +55,7 @@ th, td {
 }
 
 tbody th, tbody td {
-    text-align: left;
+    text-align: center;
     vertical-align: text-top;
 }
 
