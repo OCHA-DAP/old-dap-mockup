@@ -1,0 +1,59 @@
+body {
+    font-family: Helvetica, Arial, sanserif;
+}
+
+header {
+    border: solid 1px;
+    padding: 1ex;
+    text-align: center;
+}
+
+main {
+    width: 85%;
+    float: right;
+}
+
+nav {
+    width: 15%;
+    min-width: 5em;
+    float: left;
+}
+
+nav li.selected {
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    border: solid 1px;
+    font-size: small;
+    text-align: center;
+}
+
+section {
+    margin: 1em 0;
+}
+
+details {
+    margin: 1em 0;
+}
+
+details > summary {
+    font-size: 120%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1ex 0;
+}
+
+th, td {
+    padding: 1ex;
+    border: 1px solid #ccccaa;
+}
+
+tbody th, tbody td {
+    text-align: left;
+    vertical-align: text-top;
+}
+
