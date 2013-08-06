@@ -33,24 +33,6 @@ section {
     margin: 1em 0;
 }
 
-details {
-    margin: 1em 0;
-    padding: 0 1em;
-    border: 1px solid #aaaaaa;
-    background: #eeeeee;
-}
-
-details > summary {
-    font-size: 120%;
-    margin: 2ex 0;
-}
-
-details table {
-    border-collapse: collapse;
-    margin: 1ex 0;
-    font-size: 80%
-}
-
 th, td {
     padding: 1ex;
     border: 1px solid #ccccaa;
@@ -78,4 +60,29 @@ tbody th, tbody td {
 .note {
     background: yellow;
     font-style: italic;
+}
+
+details {
+    display: block;
+    border: solid 1px #aaaaaa;
+    padding: 0 2ex;
+    margin: 2ex 0;
+}
+
+summary {
+    display: block;
+    font-size: 120%;
+    margin: 2ex 0;
+}
+
+.no-details details > summary:before {
+    float: left;
+    width: 20px;
+    content: '► ';
+}
+
+.no-details details.open > summary:before {
+    float: left;
+    width: 20px;
+    content: '▼ ';
 }

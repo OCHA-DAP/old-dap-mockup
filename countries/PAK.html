@@ -5,6 +5,7 @@
     <title>Pakistan (DAP)</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="../dap-style.css" />
+    <script src="../html5shiv.js"></script>
   </head>
 
   <body>
@@ -12,6 +13,19 @@
     <header>
       <p>UN-OCHA Digital Analysis Project (DAP)</p>
     </header>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li>
+          <a href="../countries.html"><i>Countries</i></a>
+          <ul>
+            <li><b>Pakistan</b></li>
+          </ul>
+        </li>
+        <li><a href="../crises.html">Crises</a></li>
+      </ul>
+    </nav>
 
     <main id="accordion">
       <h1>Pakistan</h1>
@@ -1774,22 +1788,20 @@
 
     </main>
 
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li>
-          <a href="../countries.html"><i>Countries</i></a>
-          <ul>
-            <li><b>Pakistan</b></li>
-          </ul>
-        </li>
-        <li><a href="../crises.html">Crises</a></li>
-      </ul>
-    </nav>
-
     <footer>
       <p>Copyright (c) 2013 by the United Nations, Office for the Coordination of Humanitarian Affairs</p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="../../jquery.details.js"></script>
+    <script>
+      $(function() {
+      // Add conditional classname based on support
+      $('html').addClass($.fn.details.support ? 'details' : 'no-details');
+      // Emulate <details> where necessary and enable open/close event handlers
+      $('details').details();
+      });
+    </script>
 
   </body>
 

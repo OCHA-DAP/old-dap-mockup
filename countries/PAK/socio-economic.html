@@ -5,6 +5,7 @@
     <title>Pakistan - socio-economic indicators(DAP)</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="../../dap-style.css" />
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
 
   <body>
@@ -382,6 +383,17 @@
     <footer>
       <p>Copyright (c) 2013 by the United Nations, Office for the Coordination of Humanitarian Affairs</p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="../../jquery.details.js"></script>
+    <script>
+      $(function() {
+      // Add conditional classname based on support
+      $('html').addClass($.fn.details.support ? 'details' : 'no-details');
+      // Emulate <details> where necessary and enable open/close event handlers
+      $('details').details();
+      });
+    </script>
 
   </body>
 
