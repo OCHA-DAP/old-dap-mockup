@@ -382,132 +382,157 @@
 
           <details>
             <summary>Population</summary>
-            <table>
-              <thead>
-                <tr>
-                  <th>Attribute</th>
-                  <th>Source</th>
-                  <th>2013</th>
-                  <th>2012</th>
-                  <th>2011</th>
-                  <th>2010</th>
-                  <th>2009</th>
-                  <th>2008</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Total Population - Both Sexes</td>
-                  <td>UNDESA</td>
-                  <td>--</td>
-                  <td>179, 951, 000</td>
-                  <td>176, 745, 000</td>
-                  <td>173, 593, 000</td>
-                  <td>170, 494, 000</td>
-                  <td>167, 442, 000</td>
-                </tr>
-                <tr>
-                  <td>Population</td>
-                  <td>ESP</td>
-                  <td>--</td>
-                  <td>180, 710, 000</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                </tr>
-                <tr>
-                  <td>Population - Female</td>
-                  <td>ESP</td>
-                  <td>--</td>
-                  <td>87, 250, 000</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                </tr>
-                <tr>
-                  <td>Population - Male</td>
-                  <td>ESP</td>
-                  <td>--</td>
-                  <td>93, 450, 000</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                </tr>
-                <tr>
-                  <td>Population Growth Rate</td>
-                  <td>UNDESA</td>
-                  <td>--</td>
-                  <td>1.77%</td>
-                  <td>1.77%</td>
-                  <td>1.80%</td>
-                  <td>1.80%</td>
-                  <td>1.80%</td>
-                </tr>
-                <tr>
-                  <td>Average Population Growth Rate</td>
-                  <td>World Bank</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>1.80%</td>
-                  <td>1.80%</td>
-                  <td>1.81%</td>
-                  <td>1.81%</td>
-                </tr>
-                <tr>
-                  <td>Median Age of Population</td>
-                  <td>UNDESA</td>
-                  <td>--</td>
-                  <td>23.17</td>
-                  <td>23.17</td>
-                  <td>21.67</td>
-                  <td>21.67</td>
-                  <td>21.67</td>
-                </tr>
-                <tr>
-                  <td>Population Density (persons per square km)</td>
-                  <td>UNDESA</td>
-                  <td>--</td>
-                  <td>226.04</td>
-                  <td>222.02</td>
-                  <td>218.06</td>
-                  <td>214.16</td>
-                  <td>210.33</td>
-                </tr>
-                <tr>
-                  <td>Population Density (persons per square km)</td>
-                  <td>World Bank</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>225.19</td>
-                  <td>221.17</td>
-                  <td>217.21</td>
-                </tr>
-                <tr>
-                  <td>Population residing in urban areas (%)</td>
-                  <td>UNDESA</td>
-                  <td>--</td>
-                  <td>35.88%</td>
-                  <td>35.88%</td>
-                  <td>35.88%</td>
-                  <td>34.48%</td>
-                  <td>34.48%</td>
-                </tr>
-                <tr>
-                  <td>Population residing in urban areas (%)</td>
-                  <td>World Bank</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>35.88%</td>
-                  <td>35.60%</td>
-                  <td>35.32%</td>
-                </tr>
-              </tbody>
-            </table>
+            <p><i>For this indicator group, I've roughed in what a visualisation UI might look like.  The user will select indicators to graph against each other, and (optionally) another country for comparison, then the web site will pop up a chart showing the trends.</i></p>
+            <form class="compare-to">
+              <label>
+                Compare to
+                <select>
+                  <option>--</option>
+                  <option>Colombia</option>
+                  <option>Philippines</option>
+                  <option>Yemen</option>
+                </select>
+              </label>
+              <button>Chart</button>
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Attribute</th>
+                    <th>Source</th>
+                    <th>2013</th>
+                    <th>2012</th>
+                    <th>2011</th>
+                    <th>2010</th>
+                    <th>2009</th>
+                    <th>2008</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Total Population - Both Sexes</td>
+                    <td>UNDESA</td>
+                    <td>--</td>
+                    <td>179, 951, 000</td>
+                    <td>176, 745, 000</td>
+                    <td>173, 593, 000</td>
+                    <td>170, 494, 000</td>
+                    <td>167, 442, 000</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Population</td>
+                    <td>ESP</td>
+                    <td>--</td>
+                    <td>180, 710, 000</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Population - Female</td>
+                    <td>ESP</td>
+                    <td>--</td>
+                    <td>87, 250, 000</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Population - Male</td>
+                    <td>ESP</td>
+                    <td>--</td>
+                    <td>93, 450, 000</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Population Growth Rate</td>
+                    <td>UNDESA</td>
+                    <td>--</td>
+                    <td>1.77%</td>
+                    <td>1.77%</td>
+                    <td>1.80%</td>
+                    <td>1.80%</td>
+                    <td>1.80%</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Average Population Growth Rate</td>
+                    <td>World Bank</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>1.80%</td>
+                    <td>1.80%</td>
+                    <td>1.81%</td>
+                    <td>1.81%</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Median Age of Population</td>
+                    <td>UNDESA</td>
+                    <td>--</td>
+                    <td>23.17</td>
+                    <td>23.17</td>
+                    <td>21.67</td>
+                    <td>21.67</td>
+                    <td>21.67</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Population Density (persons per square km)</td>
+                    <td>UNDESA</td>
+                    <td>--</td>
+                    <td>226.04</td>
+                    <td>222.02</td>
+                    <td>218.06</td>
+                    <td>214.16</td>
+                    <td>210.33</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Population Density (persons per square km)</td>
+                    <td>World Bank</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>225.19</td>
+                    <td>221.17</td>
+                    <td>217.21</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Population residing in urban areas (%)</td>
+                    <td>UNDESA</td>
+                    <td>--</td>
+                    <td>35.88%</td>
+                    <td>35.88%</td>
+                    <td>35.88%</td>
+                    <td>34.48%</td>
+                    <td>34.48%</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Population residing in urban areas (%)</td>
+                    <td>World Bank</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>35.88%</td>
+                    <td>35.60%</td>
+                    <td>35.32%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
           </details>
 
           <details>

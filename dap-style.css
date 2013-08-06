@@ -37,13 +37,16 @@ section {
 details {
     margin: 1em 0;
     padding: 0 1em;
+    border: 1px solid #aaaaaa;
+    background: #eeeeee;
 }
 
 details > summary {
     font-size: 120%;
+    margin: 2ex 0;
 }
 
-table {
+details table {
     border-collapse: collapse;
     margin: 1ex 0;
     font-size: 80%
@@ -52,6 +55,7 @@ table {
 th, td {
     padding: 1ex;
     border: 1px solid #ccccaa;
+    background: #ffffff;
 }
 
 tbody th, tbody td {
@@ -59,3 +63,10 @@ tbody th, tbody td {
     vertical-align: text-top;
 }
 
+.label {
+    font-size: 80%;
+}
+
+.download {
+    font-size: 80%;
+}
