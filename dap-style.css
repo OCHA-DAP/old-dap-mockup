@@ -86,3 +86,8 @@ summary {
     width: 20px;
     content: '▼ ';
 }
+
+dt {
+    margin-top: 2ex;
+    font-weight: bold;
+}
