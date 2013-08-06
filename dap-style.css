@@ -70,3 +70,13 @@ tbody th, tbody td {
 .download {
     font-size: 80%;
 }
+
+.breadcrumbs {
+    margin: 2ex 0;
+    font-size: 80%;
+}
+
+.note {
+    background: yellow;
+    font-style: italic;
+}
