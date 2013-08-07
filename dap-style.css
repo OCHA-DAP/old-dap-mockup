@@ -1,32 +1,49 @@
 body {
     font-family: Helvetica, Arial, sanserif;
+    background: #4B92DB;
+    color: #333300;
 }
 
 header {
-    border: solid 1px;
     padding: 1ex;
-    text-align: center;
+    text-align: right;
+    background: ocha.gif;
+    font-size: 120%;
+    color: white;
 }
 
 main {
-    margin-left: 25%;
+    margin-left: 22%;
+    margin-right: 1em;
+    padding: 1em;
+    background: #ffffff;
 }
 
 nav {
     width: 20%;
     float: left;
     padding: 1%;
+    color: white;
 }
 
-nav li.selected {
-    font-weight: bold;
+nav ul {
+    list-style: none;
+    padding-left: 2em;
+}
+
+li {
+    margin: 1em 0;
+}
+
+nav a:visited {
+    color: white;
 }
 
 footer {
     clear: both;
-    border: solid 1px;
     font-size: small;
     text-align: center;
+    color: white;
 }
 
 section {
@@ -36,7 +53,6 @@ section {
 th, td {
     padding: 1ex;
     border: 1px solid #ccccaa;
-    background: #ffffff;
     font-size: 80%;
 }
 
