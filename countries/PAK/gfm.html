@@ -51,42 +51,62 @@
 
       <details>
         <summary>GFM ratings</summary>
-        <table>
-          <thead>
-            <tr>
-              <th>Attribute</th>
-              <th>Source</th>
-              <th>2013</th>
-              <th>2012</th>
-              <th>2011</th>
-              <th>2010</th>
-              <th>2009</th>
-              <th>2008</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>GFM Risk rating</td>
-              <td>GFM</td>
-              <td>--</td>
-              <td>7.3</td>
-              <td>218</td>
-              <td>211</td>
-              <td>227</td>
-              <td>211</td>
-            </tr>
-            <tr>
-              <td>GFM Focus rating</td>
-              <td>GFM</td>
-              <td>--</td>
-              <td>7.6</td>
-              <td>264</td>
-              <td>259</td>
-              <td>273</td>
-              <td>261</td>
-            </tr>
-          </tbody>
-        </table>
+        <form class="compare-to" action="sample-compare.html">
+          <label>
+            Compare to
+            <select>
+              <option>--</option>
+              <option>Colombia</option>
+              <option>Philippines</option>
+              <option>Yemen</option>
+            </select>
+          </label>
+          <button>Show chart</button>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Attribute</th>
+                <th>Source</th>
+                <th>2013</th>
+                <th>2012</th>
+                <th>2011</th>
+                <th>2010</th>
+                <th>2009</th>
+                <th>2008</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>GFM Risk rating</td>
+                <td>GFM</td>
+                <td>--</td>
+                <td>7.3</td>
+                <td>218</td>
+                <td>211</td>
+                <td>227</td>
+                <td>211</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>GFM Focus rating</td>
+                <td>GFM</td>
+                <td>--</td>
+                <td>7.6</td>
+                <td>264</td>
+                <td>259</td>
+                <td>273</td>
+                <td>261</td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+        <p class="download">
+          Download as
+          <a href="../../not-implemented.html">CSV</a>
+          <a href="../../not-implemented.html">HXL</a>
+        </p>
       </details>
 
       <details>
@@ -94,280 +114,371 @@
 
         <details>
           <summary>Hazard</summary>
-          <table>
-            <thead>
-              <tr>
-                <th>Attribute</th>
-                <th>Source</th>
-                <th>2013</th>
-                <th>2012</th>
-                <th>2011</th>
-                <th>2010</th>
-                <th>2009</th>
-                <th>2008</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Natural</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>7.3</td>
-                <td>8</td>
-                <td>7</td>
-                <td>8</td>
-                <td>8</td>
-              </tr>
-              <tr>
-                <td>Human-induced</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>9</td>
-                <td>8</td>
-                <td>8</td>
-                <td>10</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>Socio-political</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>--</td>
-                <td>9</td>
-                <td>9</td>
-                <td>9</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>Climate change</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>--</td>
-                <td>8</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Pandemic</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>--</td>
-                <td>6</td>
-                <td>6</td>
-                <td>9</td>
-                <td>8</td>
-              </tr>
-            </tbody>
-          </table>
+          <form class="compare-to" action="sample-compare.html">
+            <label>
+              Compare to
+              <select>
+                <option>--</option>
+                <option>Colombia</option>
+                <option>Philippines</option>
+                <option>Yemen</option>
+              </select>
+            </label>
+            <button>Show chart</button>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Attribute</th>
+                  <th>Source</th>
+                  <th>2013</th>
+                  <th>2012</th>
+                  <th>2011</th>
+                  <th>2010</th>
+                  <th>2009</th>
+                  <th>2008</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Natural</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>7.3</td>
+                  <td>8</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Human-induced</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>9</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>10</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Socio-political</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>9</td>
+                  <td>9</td>
+                  <td>9</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Climate change</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Pandemic</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>6</td>
+                  <td>6</td>
+                  <td>9</td>
+                  <td>8</td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+          <p class="download">
+            Download as
+            <a href="../../not-implemented.html">CSV</a>
+            <a href="../../not-implemented.html">HXL</a>
+          </p>
         </details>
 
         <details>
           <summary>Vulnerability</summary>
-          <table>
-            <thead>
-              <tr>
-                <th>Attribute</th>
-                <th>Source</th>
-                <th>2013</th>
-                <th>2012</th>
-                <th>2011</th>
-                <th>2010</th>
-                <th>2009</th>
-                <th>2008</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Poverty</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>8.1</td>
-                <td>7</td>
-                <td>7</td>
-                <td>8</td>
-                <td>8</td>
-              </tr>
-              <tr>
-                <td>Livelihood</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>7.9</td>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>
-              </tr>
-              <tr>
-                <td>Dependency</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>6.8</td>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>
-              </tr>
-              <tr>
-                <td>Environment</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>5.8</td>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>
-              </tr>
-              <tr>
-                <td>Displacement</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>--</td>
-                <td>9</td>
-                <td>9</td>
-                <td>7</td>
-                <td>6</td>
-              </tr>
-              <tr>
-                <td>Food security</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>--</td>
-                <td>8</td>
-                <td>7</td>
-                <td>6</td>
-                <td>8</td>
-              </tr>
-              <tr>
-                <td>Water</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>--</td>
-                <td>9</td>
-                <td>9</td>
-                <td>9</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>Disease</td>
-                <td>GFM</td>
-                <td>--</td>
-                <td>--</td>
-                <td>6</td>
-                <td>6</td>
-                <td>6</td>
-                <td>5</td>
-              </tr>
-            </tbody>
-          </table>
+          <form class="compare-to" action="sample-compare.html">
+            <label>
+              Compare to
+              <select>
+                <option>--</option>
+                <option>Colombia</option>
+                <option>Philippines</option>
+                <option>Yemen</option>
+              </select>
+            </label>
+            <button>Show chart</button>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Attribute</th>
+                  <th>Source</th>
+                  <th>2013</th>
+                  <th>2012</th>
+                  <th>2011</th>
+                  <th>2010</th>
+                  <th>2009</th>
+                  <th>2008</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Poverty</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>8.1</td>
+                  <td>7</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Livelihood</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>7.9</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>--</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Dependency</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>6.8</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>--</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Environment</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>5.8</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>--</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Displacement</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>9</td>
+                  <td>9</td>
+                  <td>7</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Food security</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>8</td>
+                  <td>7</td>
+                  <td>6</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Water</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>9</td>
+                  <td>9</td>
+                  <td>9</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Disease</td>
+                  <td>GFM</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>6</td>
+                  <td>6</td>
+                  <td>6</td>
+                  <td>5</td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+          <p class="download">
+            Download as
+            <a href="../../not-implemented.html">CSV</a>
+            <a href="../../not-implemented.html">HXL</a>
+          </p>
         </details>
 
         <details>
           <summary>Capacity</summary>
-          <table>
-            <thead>
-              <tr>
-                <th>Attribute</th>
-                <th>Source</th>
-                <th>Unit</th>
-                <th>2013</th>
-                <th>2012</th>
-                <th>2011</th>
-                <th>2010</th>
-                <th>2009</th>
-                <th>2008</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Economic</td>
-                <td>GFM</td>
-                <td>Score</td>
-                <td>--</td>
-                <td>6.5</td>
-                <td>5</td>
-                <td>5</td>
-                <td>6</td>
-                <td>6</td>
-              </tr>
-              <tr>
-                <td>Institutional</td>
-                <td>GFM</td>
-                <td>Score</td>
-                <td>--</td>
-                <td>6</td>
-                <td>7</td>
-                <td>6</td>
-                <td>8</td>
-                <td>7</td>
-              </tr>
-              <tr>
-                <td>Infrastructure</td>
-                <td>GFM</td>
-                <td>Score</td>
-                <td>--</td>
-                <td>5.9</td>
-                <td>6</td>
-                <td>6</td>
-                <td>5</td>
-                <td>4</td>
-              </tr>
-            </tbody>
-          </table>
+          <form class="compare-to" action="sample-compare.html">
+            <label>
+              Compare to
+              <select>
+                <option>--</option>
+                <option>Colombia</option>
+                <option>Philippines</option>
+                <option>Yemen</option>
+              </select>
+            </label>
+            <button>Show chart</button>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Attribute</th>
+                  <th>Source</th>
+                  <th>Unit</th>
+                  <th>2013</th>
+                  <th>2012</th>
+                  <th>2011</th>
+                  <th>2010</th>
+                  <th>2009</th>
+                  <th>2008</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Economic</td>
+                  <td>GFM</td>
+                  <td>Score</td>
+                  <td>--</td>
+                  <td>6.5</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Institutional</td>
+                  <td>GFM</td>
+                  <td>Score</td>
+                  <td>--</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>6</td>
+                  <td>8</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Infrastructure</td>
+                  <td>GFM</td>
+                  <td>Score</td>
+                  <td>--</td>
+                  <td>5.9</td>
+                  <td>6</td>
+                  <td>6</td>
+                  <td>5</td>
+                  <td>4</td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+          <p class="download">
+            Download as
+            <a href="../../not-implemented.html">CSV</a>
+            <a href="../../not-implemented.html">HXL</a>
+          </p>
         </details>
 
         <details>
           <summary>Humanitarian</summary>
-          <table>
-            <thead>
-              <tr>
-                <th>Attribute</th>
-                <th>Source</th>
-                <th>Unit</th>
-                <th>2013</th>
-                <th>2012</th>
-                <th>2011</th>
-                <th>2010</th>
-                <th>2009</th>
-                <th>2008</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Humanitarian</td>
-                <td>GFM</td>
-                <td>Score</td>
-                <td>--</td>
-                <td>9.90</td>
-                <td>10</td>
-                <td>10</td>
-                <td>8</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Cluster leads</td>
-                <td>GFM</td>
-                <td>Score</td>
-                <td>--</td>
-                <td>--</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Focus</td>
-                <td>GFM</td>
-                <td>Score</td>
-                <td>--</td>
-                <td>--</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
-                <td>10</td>
-              </tr>
-            </tbody>
-          </table>
+          <form class="compare-to" action="sample-compare.html">
+            <label>
+              Compare to
+              <select>
+                <option>--</option>
+                <option>Colombia</option>
+                <option>Philippines</option>
+                <option>Yemen</option>
+              </select>
+            </label>
+            <button>Show chart</button>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Attribute</th>
+                  <th>Source</th>
+                  <th>Unit</th>
+                  <th>2013</th>
+                  <th>2012</th>
+                  <th>2011</th>
+                  <th>2010</th>
+                  <th>2009</th>
+                  <th>2008</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Humanitarian</td>
+                  <td>GFM</td>
+                  <td>Score</td>
+                  <td>--</td>
+                  <td>9.90</td>
+                  <td>10</td>
+                  <td>10</td>
+                  <td>8</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Cluster leads</td>
+                  <td>GFM</td>
+                  <td>Score</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>10</td>
+                  <td>10</td>
+                  <td>10</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Focus</td>
+                  <td>GFM</td>
+                  <td>Score</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+          <p class="download">
+            Download as
+            <a href="../../not-implemented.html">CSV</a>
+            <a href="../../not-implemented.html">HXL</a>
+          </p>
         </details>
 
       </details>
@@ -384,7 +495,6 @@
       $(function() {
       // Add conditional classname based on support
       $('html').addClass($.fn.details.support ? 'details' : 'no-details');
-      // Emulate <details> where necessary and enable open/close event handlers
       $('details').details();
       });
     </script>

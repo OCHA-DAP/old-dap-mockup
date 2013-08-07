@@ -51,222 +51,276 @@
 
       <details>
         <summary>Health</summary>
-        <table>
-          <thead>
-            <tr>
-              <th>Attribute</th>
-              <th>Source</th>
-              <th>2013</th>
-              <th>2012</th>
-              <th>2011</th>
-              <th>2010</th>
-              <th>2009</th>
-              <th>2008</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Total expenditure on health as a percentage of gross domestic product</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>2.2</td>
-              <td>2.2</td>
-              <td>2.54</td>
-            </tr>
-            <tr>
-              <td>Per capita government expenditure on health (PPP int. $)</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>22.59</td>
-              <td>19.77</td>
-              <td>21.39</td>
-            </tr>
-            <tr>
-              <td>Physicians density (per 10 000 population)</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>0.81</td>
-              <td>0.80</td>
-            </tr>
-            <tr>
-              <td>Density of pharmaceutical personnel (per 10 000 population)</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Community health workers density (per 10 000 population)</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>0.06</td>
-              <td>0.06</td>
-            </tr>
-            <tr>
-              <td>Hospital beds (per 10 000 population)</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>6</td>
-              <td>6</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Other health service providers density (per 10 000 population)</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Median availability of selected generic medicines (%) - Public</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Routine EPI vaccines financed by government (%)</td>
-              <td>UNICEF</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>100</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Infants lacking immunization against Measles (one-year-old)</td>
-              <td>UNDP HDR</td>
-              <td>--</td>
-              <td>--</td>
-              <td>20</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Median consumer price ratio of selected generic medicines - Public</td>
-              <td>WHO</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-          </tbody>
-        </table>
+        <form class="compare-to" action="sample-compare.html">
+          <label>
+            Compare to
+            <select>
+              <option>--</option>
+              <option>Colombia</option>
+              <option>Philippines</option>
+              <option>Yemen</option>
+            </select>
+          </label>
+          <button>Show chart</button>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Attribute</th>
+                <th>Source</th>
+                <th>2013</th>
+                <th>2012</th>
+                <th>2011</th>
+                <th>2010</th>
+                <th>2009</th>
+                <th>2008</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Total expenditure on health as a percentage of gross domestic product</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>2.2</td>
+                <td>2.2</td>
+                <td>2.54</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Per capita government expenditure on health (PPP int. $)</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>22.59</td>
+                <td>19.77</td>
+                <td>21.39</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Physicians density (per 10 000 population)</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>0.81</td>
+                <td>0.80</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Density of pharmaceutical personnel (per 10 000 population)</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Community health workers density (per 10 000 population)</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>0.06</td>
+                <td>0.06</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Hospital beds (per 10 000 population)</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>6</td>
+                <td>6</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Other health service providers density (per 10 000 population)</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Median availability of selected generic medicines (%) - Public</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Routine EPI vaccines financed by government (%)</td>
+                <td>UNICEF</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>100</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Infants lacking immunization against Measles (one-year-old)</td>
+                <td>UNDP HDR</td>
+                <td>--</td>
+                <td>--</td>
+                <td>20</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Median consumer price ratio of selected generic medicines - Public</td>
+                <td>WHO</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+        <p class="download">
+          Download as
+          <a href="../../not-implemented.html">CSV</a>
+          <a href="../../not-implemented.html">HXL</a>
+        </p>
       </details>
 
       <details>
         <summary>Other</summary>
-        <table>
-          <thead>
-            <tr>
-              <th>Attribute</th>
-              <th>Source</th>
-              <th>2013</th>
-              <th>2012</th>
-              <th>2011</th>
-              <th>2010</th>
-              <th>2009</th>
-              <th>2008</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Capacity storage in the country</td>
-              <td>Global Mapping of Emergency Stockpiles and LogIK databases</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Signatory of conventions / agreements</td>
-              <td>Global Mapping of Emergency Stockpiles and LogIK databases</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Prepositioned items in the country</td>
-              <td>Global Mapping of Emergency Stockpiles and LogIK databases</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-            <tr>
-              <td>Mobile cellular subscriptions (per 100 people) </td>
-              <td>World Bank</td>
-              <td>--</td>
-              <td>--</td>
-              <td>62</td>
-              <td>57</td>
-              <td>55</td>
-              <td>53</td>
-            </tr>
-            <tr>
-              <td>Internet users (per 100 people) </td>
-              <td>World Bank</td>
-              <td>--</td>
-              <td>--</td>
-              <td>9</td>
-              <td>8</td>
-              <td>8</td>
-              <td>7</td>
-            </tr>
-            <tr>
-              <td>Official development assistance per capita, US$</td>
-              <td>World Bank</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>17.00</td>
-              <td>16.00</td>
-              <td>9.00</td>
-            </tr>
-            <tr>
-              <td>Official development assistance per capita, US$</td>
-              <td>OECD DAC</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>17.28</td>
-              <td>--</td>
-              <td>--</td>
-            </tr>
-          </tbody>
-        </table>
+        <form class="compare-to" action="sample-compare.html">
+          <label>
+            Compare to
+            <select>
+              <option>--</option>
+              <option>Colombia</option>
+              <option>Philippines</option>
+              <option>Yemen</option>
+            </select>
+          </label>
+          <button>Show chart</button>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Attribute</th>
+                <th>Source</th>
+                <th>2013</th>
+                <th>2012</th>
+                <th>2011</th>
+                <th>2010</th>
+                <th>2009</th>
+                <th>2008</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Capacity storage in the country</td>
+                <td>Global Mapping of Emergency Stockpiles and LogIK databases</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Signatory of conventions / agreements</td>
+                <td>Global Mapping of Emergency Stockpiles and LogIK databases</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Prepositioned items in the country</td>
+                <td>Global Mapping of Emergency Stockpiles and LogIK databases</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Mobile cellular subscriptions (per 100 people) </td>
+                <td>World Bank</td>
+                <td>--</td>
+                <td>--</td>
+                <td>62</td>
+                <td>57</td>
+                <td>55</td>
+                <td>53</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Internet users (per 100 people) </td>
+                <td>World Bank</td>
+                <td>--</td>
+                <td>--</td>
+                <td>9</td>
+                <td>8</td>
+                <td>8</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Official development assistance per capita, US$</td>
+                <td>World Bank</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>17.00</td>
+                <td>16.00</td>
+                <td>9.00</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Official development assistance per capita, US$</td>
+                <td>OECD DAC</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>17.28</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+        <p class="download">
+          Download as
+          <a href="../../not-implemented.html">CSV</a>
+          <a href="../../not-implemented.html">HXL</a>
+        </p>
       </details>
 
     </main>
@@ -281,7 +335,6 @@
       $(function() {
       // Add conditional classname based on support
       $('html').addClass($.fn.details.support ? 'details' : 'no-details');
-      // Emulate <details> where necessary and enable open/close event handlers
       $('details').details();
       });
     </script>

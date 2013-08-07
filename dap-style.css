@@ -35,7 +35,7 @@ li {
     margin: 1em 0;
 }
 
-nav a:visited {
+nav a:visited, nav a:link {
     color: white;
 }
 
