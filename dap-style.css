@@ -108,3 +108,16 @@ dt {
     margin-top: 2ex;
     font-weight: bold;
 }
+
+ul.countries {
+    list-style: none;
+    padding: 0;
+}
+
+ul.countries li {
+    margin: 4ex 0;
+}
+
+ul.countries img {
+    height: 2ex;
+}
