@@ -121,3 +121,14 @@ ul.countries li {
 ul.countries img {
     height: 2ex;
 }
+
+.country-map {
+    float: right;
+    width: 425px;
+    height: 350px;
+    border: none;
+}
+
+.country-map .caption {
+    font-size: 80%;
+}
